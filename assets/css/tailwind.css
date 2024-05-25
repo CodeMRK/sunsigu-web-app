@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Eudoxus Sans';
+}
+
+a:hover,
+button:hover {
+  opacity: 0.75;
+}
+
+span.swiper-pagination-bullet {
+  background-color: #ffa20033;
+  opacity: 0.75;
+  transition: all 1s;
+
+  border-radius: 20px !important;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #ffb23f;
+
+  opacity: 1;
+}
