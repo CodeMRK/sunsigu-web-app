@@ -7,7 +7,7 @@
     >
       <div className=" bg-transparent relative w-full h-[230px]">
         <img
-          src="~assets/images/placeholder-image.png"
+          src="/images/placeholder-image.png"
           alt="project_image"
           className="aspect-[16/9] w-full  object-cover rounded-t-2xl"
         />
