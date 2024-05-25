@@ -1,11 +1,11 @@
 <template>
-    <div class="font-bold h-[80dvh] flex justify-center items-center">
-        <p>Index NuxtPage</p>
-    </div>
+  <Hero />
+  <Projects />
+  <Banner />
+  <AboutUs />
+  <Testimonials />
 </template>
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <style scoped></style>
