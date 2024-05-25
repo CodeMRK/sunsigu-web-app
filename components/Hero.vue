@@ -31,7 +31,7 @@
       >
         <swiper-slide v-for="i in 5" :key="i" class="pb-8">
           <img
-            src="../assets/images//placeholder-image.png"
+            src="/images/placeholder-image.png"
             alt="placeholder"
             class="h-[550px] w-[450px] object-cover rounded-bl-[130px]"
           />
