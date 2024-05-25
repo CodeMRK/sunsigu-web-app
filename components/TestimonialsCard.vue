@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-[#fff8f8] max-w-[620px] shadow-2xl py-3 px-6 flex flex-col gap-4"
+    class="bg-[#fff8f8] w-[620px] shadow-xl py-3 px-6 flex flex-col gap-4 rounded-md"
   >
     <img src="~/assets/images/quote-up.png" alt="qoute" class="w-[45px]" />
     <p class="text-[18px] text-gray-lighten tracking-wider">

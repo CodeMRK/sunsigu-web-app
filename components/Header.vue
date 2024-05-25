@@ -2,7 +2,7 @@
   <div
     class="bg-white flex justify-between text-black max-w-7xl mx-auto px-2 py-6 items-center"
   >
-    <NuxtLink class="font-bold text-[20px]">Sunsigu</NuxtLink>
+    <NuxtLink to="/" class="font-bold text-[20px]">Sunsigu</NuxtLink>
     <div class="flex gap-12 font-medium">
       <NuxtLink to="/projects">Projects</NuxtLink>
       <NuxtLink to="/contact-us">Contact Us</NuxtLink>

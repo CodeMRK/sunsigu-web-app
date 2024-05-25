@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-bg-secondary flex flex-row justify-center items-center gap-12 py-12 px-2"
+    class="bg-bg-secondary flex flex-row justify-center items-center gap-12 py-28 px-2"
   >
     <div>
       <h2

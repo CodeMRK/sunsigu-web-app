@@ -1,7 +1,5 @@
-<template>
-  <div>policies</div>
-</template>
+<template><div>policies</div></template>
 
-<script setup lang="ts"></script>
+<script setup></script>
 
 <style scoped></style>

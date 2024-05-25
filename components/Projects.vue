@@ -13,7 +13,7 @@
       </div>
 
       <div class="flex flex-wrap justify-center gap-12 mt-12">
-        <ProjectCard v-for="i in 6" :key="i" />
+        <ProjectCard v-for="(num, i) in 6" :key="i" :index="i" />
       </div>
     </div>
   </section>
