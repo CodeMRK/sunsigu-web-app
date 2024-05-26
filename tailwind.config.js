@@ -21,6 +21,9 @@ export default {
         'yellow-darken': '#CDA274',
       },
     },
+    fontFamily: {
+      'dm-serif': 'DM Serif Display',
+    },
   },
   plugins: [],
 };

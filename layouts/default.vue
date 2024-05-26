@@ -10,7 +10,8 @@
 const darkMode = ref('');
 
 const toggleDarkMode = () => {
-  darkMode.value === '' ? (darkMode.value = 'dark') : (darkMode.value = '');
+  const newValue = darkMode.value === '' ? 'dark' : '';
+  darkMode.value = newValue;
 };
 </script>
 

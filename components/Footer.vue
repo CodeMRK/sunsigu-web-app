@@ -5,7 +5,7 @@
       <div class="flex justify-between pt-8 pb-20">
         <!-- sunsigu info  -->
         <div class="flex-[2]">
-          <h2 class="mb-6 font-semibold text-[18px]">Sunsigu</h2>
+          <Logo theme="dark" class="mb-4" />
           <div class="text-[#F9F9F9] w-[450px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -17,7 +17,7 @@
           <h2 class="mb-6 font-semibold text-[18px]">Projects</h2>
           <ul class="flex flex-col gap-2">
             <NuxtLink to="/contact-us">Contact Us</NuxtLink>
-            <NuxtLink to="/about-us">About Us</NuxtLink>
+            <NuxtLink to="/#about-us">About Us</NuxtLink>
           </ul>
         </div>
 

@@ -5,7 +5,7 @@
   >
     <div class="flex-1 flex flex-col justify-center gap-6">
       <h1
-        class="text-black-lighten dark:text-white-primary text-[42px] font-bold font-serif"
+        class="text-black-lighten dark:text-white-primary text-[42px] font-medium font-dm-serif"
       >
         {{ item.title }}
       </h1>

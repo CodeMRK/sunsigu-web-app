@@ -9,7 +9,7 @@
     <div class="flex justify-between items-center pt-4">
       <div>
         <h4
-          class="text-[20px] font-semibold font-serif dark:text-white-primary-2"
+          class="text-[20px] font-medium tracking-wide font-serif dark:text-white-primary-2 font-dm-serif"
         >
           GASTRO PROJECT
         </h4>

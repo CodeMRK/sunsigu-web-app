@@ -1,5 +1,8 @@
 <template>
-  <section class="py-12 px-2 bg-bg-primary dark:bg-dark-bg-primary">
+  <section
+    class="py-12 px-2 bg-bg-primary dark:bg-dark-bg-primary"
+    id="about-us"
+  >
     <h3
       class="text-black-lighten dark:text-white-primary text-[58px] font-bold mx-auto text-center mb-16"
     >
