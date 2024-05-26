@@ -1,34 +1,56 @@
 <template>
-    <div class="bg-white  text-black  px-2 py-6 items-center z-[50]"
-        :class="isFixedTop ? 'navbar-fixed-top' : ''">
-        <div class="mx-auto max-w-7xl w-full flex justify-between">
-            <NuxtLink to="/" class="font-bold text-[20px]">Sunsigu</NuxtLink>
-            <div class="flex gap-12 font-medium">
-                <NuxtLink to="/projects">Projects</NuxtLink>
-                <NuxtLink to="/contact-us">Contact Us</NuxtLink>
-                <NuxtLink to="/about-us">About Us</NuxtLink>
-                <NuxtLink to="/policies">Policies</NuxtLink>
-            </div>
-            <div>
-                <button class="text-yellow-primary font-medium">Translate</button>
-            </div>
-        </div>
+  <div
+    class="bg-white dark:bg-dark-bg-primary text-black px-2 py-6 items-center z-[50]"
+    :class="isFixedTop ? 'navbar-fixed-top' : ''"
+  >
+    <div class="mx-auto max-w-7xl w-full flex justify-between">
+      <NuxtLink to="/" class="font-bold text-[20px] dark:text-white-primary"
+        >Sunsigu</NuxtLink
+      >
+      <div
+        class="flex justify-center items-center gap-12 font-medium dark:text-white-primary-2"
+      >
+        <NuxtLink to="/projects">Projects</NuxtLink>
+        <NuxtLink to="/contact-us">Contact Us</NuxtLink>
+        <NuxtLink to="/about-us">About Us</NuxtLink>
+        <NuxtLink to="/policies">Policies</NuxtLink>
+      </div>
+      <div class="flex justify-center items-center">
+        <button @click="$emit('toggleTheme')">
+          <Icon
+            v-if="darkMode === 'dark'"
+            name="material-symbols:light-mode-sharp"
+            color="white"
+            size="26px"
+          />
+          <Icon
+            v-else-if="darkMode === ''"
+            name="tdesign:mode-dark"
+            color="black"
+            size="26px"
+          />
+        </button>
+        <button class="text-yellow-primary font-medium ml-4">Translate</button>
+      </div>
     </div>
+  </div>
 </template>
 
 <script setup lang="ts">
+const { darkMode } = defineProps<{
+  darkMode: string;
+}>();
 
 const isFixedTop = ref(false);
 
 watchEffect(() => {
-    if (process.client) {
-        window.addEventListener('scroll', () => {
-            if (window.pageYOffset > 0) return isFixedTop.value = true;
-            isFixedTop.value = false;
-        })
-    }
-})
-
+  if (process.client) {
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 0) return (isFixedTop.value = true);
+      isFixedTop.value = false;
+    });
+  }
+});
 </script>
 
 <style scoped>

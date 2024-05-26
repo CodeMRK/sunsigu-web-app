@@ -1,7 +1,7 @@
 <template>
-  <section class="py-12 px-2 bg-bg-primary">
+  <section class="py-12 px-2 bg-bg-primary dark:bg-dark-bg-primary">
     <h3
-      class="text-black-lighten text-[58px] font-bold mx-auto text-center mb-16"
+      class="text-black-lighten dark:text-white-primary text-[58px] font-bold mx-auto text-center mb-16"
     >
       About Us
     </h3>

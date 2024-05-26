@@ -16,7 +16,7 @@
         />
         <p class="text-[18px] font-bold">Jane Cooper</p>
       </div>
-      <div class="flex items-center justify-center gap-4">
+      <div class="flex items-center justify-center gap-2">
         <Icon name="noto:star" size="24px" />
         <p class="font-bold text-[18px]">4.3</p>
       </div>
