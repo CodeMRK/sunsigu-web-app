@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
   font-family: 'Eudoxus Sans';
+  scroll-behavior: smooth;
 }
 
 a:hover,
@@ -23,4 +26,13 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #ffb23f;
 
   opacity: 1;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  right: 10px;
+  padding: 30px;
+  color: #ffb23f !important;
+  fill: #ffb23f !important;
+  stroke: #ffb23f !important;
 }

@@ -1,8 +1,10 @@
 <template>
-  <section class="bg-bg-secondary py-12 px-2 rounded-bl-[150px]">
+  <section
+    class="bg-bg-secondary dark:bg-dark-bg-secondary py-12 px-2 rounded-bl-[150px]"
+  >
     <div class="max-w-[1450px] mx-auto flex justify-center items-center">
       <div class="text-black font-semibold flex-1">
-        <h1 class="text-[52px] leading-[62px]">
+        <h1 class="text-[52px] leading-[62px] dark:text-off-white">
           Elevate Your
           <span class="text-yellow-primary">Outdoor Lifestyle</span> Experience
         </h1>

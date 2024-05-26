@@ -1,10 +1,14 @@
 <template>
-  <section class="bg-bg-secondary flex flex-col items-center py-12 px-2">
+  <section
+    class="bg-bg-secondary dark:bg-dark-bg-secondary flex flex-col items-center py-12 px-2"
+  >
     <div class="flex flex-col items-center">
       <h4 class="text-yellow-primary text-[18px] font-semibold text-center">
         Testimonials
       </h4>
-      <h2 class="text-black-primary font-bold text-[52px] text-center">
+      <h2
+        class="text-black-primary dark:text-off-white font-bold text-[52px] text-center"
+      >
         What our customer say
       </h2>
       <p class="text-gray-lighten text-[18px] text-center md:max-w-[60%]">

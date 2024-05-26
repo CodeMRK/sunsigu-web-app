@@ -4,12 +4,16 @@
     :class="imagePosition === 'start' ? 'flex-row-reverse' : 'flex-row'"
   >
     <div class="flex-1 flex flex-col justify-center gap-6">
-      <h1 class="text-black-lighten text-[42px] font-bold font-serif">
+      <h1
+        class="text-black-lighten dark:text-white-primary text-[42px] font-medium font-dm-serif"
+      >
         {{ item.title }}
       </h1>
-      <p class="md:w-[70%] tracking-wider">{{ item.description }}</p>
+      <p class="md:w-[70%] tracking-wider dark:text-off-white">
+        {{ item.description }}
+      </p>
       <button
-        class="bg-black-lighten text-white py-3 rounded-2xl w-[215px] flex items-center justify-center gap-2"
+        class="bg-black-lighten dark:bg-yellow-darken text-white py-3 rounded-2xl w-[215px] flex items-center justify-center gap-2"
       >
         <span>
           {{ item.buttonText }}
